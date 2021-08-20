@@ -20,7 +20,7 @@ ini_set('display_errors', 'Off');
 <body>
     <nav class="navbar navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="/">Ứng dụng chia đội</a>
+            <a class="ml-2 navbar-brand" href="./">Ứng dụng chia đội</a>
         </div>
     </nav>
     <div class="container">
@@ -87,9 +87,9 @@ if (isset($_POST["submitForm"])) {
     echo '</div></div>';
 }
 ?>
-    <footer class="mt-auto text-white-50 bg-dark p-3">
+    <footer class="mt-3 text-white-50 bg-dark p-3">
         <div class="container">
-            <div class="row">
+            <div class="row p-3">
                 <p>&copy; Bản quyền thuộc về <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
             </div>
         </div>
