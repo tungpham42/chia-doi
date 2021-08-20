@@ -42,13 +42,6 @@ ini_set('display_errors', 'Off');
             </form>
         </div>
     </div>
-    <footer class="mt-auto text-white-50 bg-dark">
-        <div class="container">
-            <div class="row">
-                <p>Bản quyền <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
-            </div>
-        </div>
-    </footer>
 </body>
 
 <?php
@@ -94,5 +87,11 @@ if (isset($_POST["submitForm"])) {
     echo '</div></div>';
 }
 ?>
-
+    <footer class="mt-auto text-white-50 bg-dark p-3">
+        <div class="container">
+            <div class="row">
+                <p>Bản quyền <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
+            </div>
+        </div>
+    </footer>
 </html>
