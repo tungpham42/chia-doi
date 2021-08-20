@@ -18,7 +18,7 @@ ini_set('display_errors', 'Off');
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light text-light">
+    <nav class="navbar navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="/">Ứng dụng chia đội</a>
         </div>
@@ -90,7 +90,7 @@ if (isset($_POST["submitForm"])) {
     <footer class="mt-auto text-white-50 bg-dark p-3">
         <div class="container">
             <div class="row">
-                <p>Bản quyền <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
+                <p>&copy; Bản quyền <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
             </div>
         </div>
     </footer>
