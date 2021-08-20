@@ -18,6 +18,11 @@ ini_set('display_errors', 'Off');
 </head>
 
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">Ứng dụng chia đội</a>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <form action="" method="post">
@@ -37,6 +42,13 @@ ini_set('display_errors', 'Off');
             </form>
         </div>
     </div>
+    <footer class="mt-auto text-white-50 bg-dark">
+        <div class="container">
+            <div class="row">
+                <p>Bản quyền <a href="https://tungpham42.github.io/" class="text-white">Phạm Tùng</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <?php
