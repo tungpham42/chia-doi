@@ -33,7 +33,7 @@ ini_set('display_errors', 'Off');
                 <div class="col-auto mb-3">
                     <textarea name="nameList" class="form-control" id="nameList" cols="30" rows="10"><?php echo isset($_POST["nameList"]) ? $_POST["nameList"] : ''; ?></textarea>
                 </div>
-                <input class="btn btn-primary" type="submit" name="submitForm" value="Chia đội">
+                <input class="ml-3 btn btn-primary" type="submit" name="submitForm" value="Chia đội">
             </form>
         </div>
     </div>
@@ -48,7 +48,7 @@ if (isset($_POST["submitForm"])) {
     shuffle($nameList); //shuffling array of names
     $divRes = $n / $k;
     $modRes = $n % $k;
-    echo '<div class="container"><div class="row bg-light text-dark h3 p-3">';
+    echo '<div class="container"><div class="row bg-light text-dark h4 p-5 text-monospace">';
     if ($modRes == 0) {
         for ($i = 0; $i < $k; $i++) { //iteration for each group
             $slicedList = array_slice($nameList, 0, $divRes); //extract the array
