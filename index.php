@@ -30,13 +30,13 @@ ini_set('display_errors', 'Off');
                     <label for="numOfGroup" class="col-form-label">Số đội: </label>
                 </div>
                 <div class="col-auto mb-3">
-                    <input type="number" class="form-control" name="numOfGroup" id="numOfGroup" placeholder="Số đội" min="2" max="12" value="<?php echo isset($_POST["numOfGroup"]) ? $_POST["numOfGroup"] : '2'; ?>">
+                    <input type="number" class="form-control input-lg" name="numOfGroup" id="numOfGroup" placeholder="Số đội" min="2" max="12" value="<?php echo isset($_POST["numOfGroup"]) ? $_POST["numOfGroup"] : '2'; ?>">
                 </div>
                 <div class="col-auto mb-3">
                     <label for="nameList" class="col-form-label">Danh sách thành viên: </label>
                 </div>
                 <div class="col-auto mb-3">
-                    <textarea name="nameList" class="form-control" id="nameList" cols="30" rows="10"><?php echo isset($_POST["nameList"]) ? $_POST["nameList"] : ''; ?></textarea>
+                    <textarea name="nameList" class="form-control input-lg" id="nameList" cols="30" rows="10"><?php echo isset($_POST["nameList"]) ? $_POST["nameList"] : ''; ?></textarea>
                 </div>
                 <input class="ml-3 btn btn-primary" type="submit" name="submitForm" value="Chia đội">
             </form>
