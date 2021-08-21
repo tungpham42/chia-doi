@@ -38,7 +38,7 @@ ini_set('display_errors', 'Off');
                 <div class="col-auto mb-3">
                     <textarea name="nameList" class="form-control input-lg" id="nameList" cols="30" rows="10"><?php echo isset($_POST["nameList"]) ? $_POST["nameList"] : ''; ?></textarea>
                 </div>
-                <input class="ml-3 btn btn-primary" type="submit" name="submitForm" value="Chia đội">
+                <input class="ml-3 btn btn-primary btn-lg" type="submit" name="submitForm" value="Chia đội">
             </form>
         </div>
     </div>
