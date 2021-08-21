@@ -53,7 +53,7 @@ if (isset($_POST["submitForm"])) {
     shuffle($nameList); //shuffling array of names
     $divRes = $n / $k;
     $modRes = $n % $k;
-    echo '<div class="container"><div class="row bg-light text-dark h4 p-5 text-monospace">';
+    echo '<div class="container"><div class="row bg-light text-dark h5 p-5 text-monospace">';
     if ($modRes == 0) {
         for ($i = 0; $i < $k; $i++) { //iteration for each group
             $slicedList = array_slice($nameList, 0, $divRes); //extract the array
