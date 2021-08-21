@@ -57,7 +57,7 @@ if (isset($_POST["submitForm"])) {
     if ($modRes == 0) {
         for ($i = 0; $i < $k; $i++) { //iteration for each group
             $slicedList = array_slice($nameList, 0, $divRes); //extract the array
-            echo "Đội số " . $i + 1 . ": ";
+            echo "Đội " . $i + 1 . ": ";
             for ($j = 0; $j < $divRes; $j++) { //iteration for each team's members
                 echo $slicedList[$j] . "   ";
             }
@@ -77,7 +77,7 @@ if (isset($_POST["submitForm"])) {
             array_splice($nameList, 0, 1);
         }
         for ($i = 0; $i < $k; $i++) {
-            echo "Đội số " . $i + 1 . ": ";
+            echo "Đội " . $i + 1 . ": ";
             for ($j = 0; $j < $divRes; $j++) { //iteration for each team's members
                 echo $mainArray[$i][$j] . "   ";
             }
